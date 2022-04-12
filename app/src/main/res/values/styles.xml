@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ActionButton for operations-->
+    <style name="ActionButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/grey</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+
+    <!--1,2,3,4,5,6,7,8,9,=,comma-->
+    <style name="NumberButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/grey</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+
+    <!--rad-->
+    <style name="RadButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">left</item>
+        <!--<item name="android:paddingLeft">30dp</item>-->
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+    <!--3 dots-->
+    <style name="ThreeButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">right</item>
+        <!--<item name="android:paddingRight">30dp</item>-->
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+
+</resources>
